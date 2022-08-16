@@ -29,7 +29,6 @@ body {
 }
 
 .header nav{
-    font-family: ;
     font-size: larger;
     padding-top: 50px;
 }
@@ -40,6 +39,21 @@ body {
 
 .header nav ul li{
     display: inline-block;
+    margin-right: 30px;
+}
+
+/* about me */
+.about-me{
+    text-align: left;
+    height: 300px;
+    font-size: larger;
+    color: white;
+}
+
+.about-me img{
+    max-height: 300px;
+    max-width: 300px;
+    float: left;
     margin-right: 30px;
 }
 
