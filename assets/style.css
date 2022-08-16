@@ -76,5 +76,33 @@ body {
     max-width: 50%;
 }
 
+.contact-me{
+    background: grey;
+    height: 130px;
+}
+
+.contact-me nav{
+    font-size: 35px;
+    margin-right: 50px ;
+}
+
+.contact-me nav ul{
+    list-style-type: none;
+}
+
+.contact-me nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 30px;
+}
+
+.footer{
+    padding: 45px;
+    height: 100px;
+    font-size: large;
+    color: white;
+}
+
+
 
 
