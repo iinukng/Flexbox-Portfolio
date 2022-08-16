@@ -1,0 +1,46 @@
+/* general */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.container>*{
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+}
+
+/* header */
+.header {
+    background: grey;
+    height: 130px;
+}
+
+.header nav{
+    font-family: ;
+    font-size: larger;
+    padding-top: 50px;
+}
+
+.header nav ul{
+    list-style-type: none;
+}
+
+.header nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
