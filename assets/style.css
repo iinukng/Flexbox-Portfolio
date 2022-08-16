@@ -68,7 +68,7 @@ body {
 }
 
 .my-work2{
-    background: gray;
+    background-color: gray;
 }
 
 .my-work2 img{
@@ -103,6 +103,29 @@ body {
     color: white;
 }
 
+@media all and (min-width: 800px){
+    .about-me{
+        flex: 5;
+    }
 
+    .about-me{
+        order: 1;
+    }
+
+    .my-work1{
+        order: 2;
+    }
+
+    .my-work2{
+        order: 3;
+    }
+
+    .contact-me{
+        order: 4;
+    }
+    .footer{
+        order: 5;
+    }
+}
 
 
