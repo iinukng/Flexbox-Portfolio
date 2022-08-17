@@ -6,10 +6,19 @@
 }
 
 body {
-    background-color: rgb(19, 19, 19);
+    background-color: rgb(46, 46, 46);
+    font-family: Arial;
 }
 
-.container{
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-size: 25px;
+}
+.container {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
@@ -24,108 +33,117 @@ body {
 
 /* header */
 .header {
-    background: grey;
-    height: 130px;
+    background: gray;
+    height: 120px;
+}
+.header h1 {
+    padding-top: 0;
+    font-size: 50px;
+
 }
 
-.header nav{
-    font-size: larger;
-    padding-top: 50px;
+.header nav {
+    font-size: 32px;
+    padding-top: 10px;
 }
 
-.header nav ul{
+.header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li{
+.header nav ul li {
     display: inline-block;
-    margin-right: 30px;
+    margin-left: 55px;
 }
 
 /* about me */
-.about-me{
+.about-me {
     text-align: left;
     height: 300px;
     font-size: larger;
     color: white;
 }
 
-.about-me img{
+.about-me img {
     max-height: 300px;
     max-width: 300px;
     float: left;
     margin-right: 30px;
 }
 
+.about-me h2 {
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
 /* my work */
-.my-work1{
+.my-work {
     background: gray;
+    text-align: center;
 }
 
-.my-work1 img{
+.my-work img {
     max-height: 500px;
-    max-width: 60%;
+    max-width: 100%;
 }
 
-.my-work2{
-    background-color: gray;
+.my-work h2  {
+    margin-bottom: 15px;
+    font-size: 35px;
 }
 
-.my-work2 img{
-    max-height: 500px;
-    max-width: 50%;
-}
-
-.contact-me{
+/* contact me */
+.contact-me {
     background: grey;
     height: 130px;
 }
 
-.contact-me nav{
-    font-size: 35px;
-    margin-right: 50px ;
+.contact-me nav {
+    font-size: 30px;
+    margin-right: 0px ;
 }
 
-.contact-me nav ul{
+.contact-me nav ul {
     list-style-type: none;
 }
 
-.contact-me nav ul li{
+.contact-me nav ul li {
     display: inline-block;
     margin-right: 10px;
     padding: 30px;
 }
 
-.footer{
+.footer {
     padding: 45px;
     height: 100px;
     font-size: large;
     color: white;
 }
 
-@media all and (min-width: 800px){
-    .about-me{
-        flex: 5;
+@media screen and (min-width: 800px) {
+    .about-me {
+        flex: 3;
     }
 
-    .about-me{
+    .about-me {
         order: 1;
     }
 
-    .my-work1{
+    .my-work {
         order: 2;
     }
 
-    .my-work2{
+    .contact-me {
         order: 3;
     }
-
-    .contact-me{
+    .footer {
         order: 4;
     }
-    .footer{
-        order: 5;
+} 
+
+@media screen and (min-width: 600px){
+    .my-work {
+        flex: 1;
     }
 }
-
 
