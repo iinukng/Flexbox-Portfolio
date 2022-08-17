@@ -2,9 +2,17 @@
 
 ## Description
 
-This portfolio demonstrates what I have learned so far from unit 1 and 2, containing html and css elements.
+This portfolio demonstrates what I have learned so far from unit 1 and 2. The project utilizes primarily HTML and CSS.
 
-## View the page
+## Usage 
+
+This webpage is intended to help an individual get acquainted with me. 
+
+## View the page 
+Webpage: 
+
+![](assets/images/flexbox-portfolio.PNG)
+
 
 
 

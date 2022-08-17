@@ -142,8 +142,7 @@ p {
 } 
 
 @media screen and (min-width: 600px){
-    .my-work {
-        flex: 1;
+    .about-me {
+        flex: 2;
     }
 }
-
